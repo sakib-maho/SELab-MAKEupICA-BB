@@ -11,8 +11,11 @@ int sum(int arr[], int n) {
 
 
 int main() {
-    int arr[100];
-    int i,j,k,n;
+    int i,j,k,n=3;
+    int arr[] = {1, 3, 5};
+    printf("sum of the elements of this array is %d", sum(arr, n));
+    return 0;
+}
 
     printf("Enter size of array ");
     scanf("%d",&n);
@@ -20,8 +23,12 @@ int main() {
     {
         printf("%dth element ",i+1);
         scanf("%d",&arr[i]);
-    }
 
-    printf("sum of the elements of this array is %d", sum(arr, n));
+
+int ret_z(){
     return 0;
+}
+
+void hello(){
+    printf("hello");
 }
