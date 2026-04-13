@@ -18,14 +18,14 @@ It now includes clean source separation, reusable functions, tests, and build au
 - Test executable for verification
 - `Makefile` targets: `build`, `test`, `clean`
 
-## Build and Run
+## Quick Start
 
 ```bash
 make build
 ./metrics_cli 4 8 15 16 23 42
 ```
 
-## Test
+## Tests
 
 ```bash
 make test
